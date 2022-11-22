@@ -32,7 +32,8 @@ function create(e) {
     
     todoList.appendChild(newDiv);
     todoInput.value = "";
-  } else {
+  } 
+  else {
     alert("Input Field Can't Be Blank");
   }
 }
